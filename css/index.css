@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maginYPadding{
+  margin: 0;
+  padding: 0; 
+}
+.icono{
+  height: 100%;
+}
+nav{
+  display: flex;
+  background-color: #343c44 ;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px; 
+
+}
+
+nav ul{
+  height: 100%;
+  float: right;
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  color:  #818c97 ;
+  display: block;
+  font-size: 1rem;
+  line-height: 50px;
+  text-decoration: none;
+  padding: 0 20px;
+}
+nav img{
+  width: 8rem;
+}
+nav p{
+  color: white;
+  display: inline;
+  text-align: center;
+}
+.confBsAs{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/ba1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50rem;   
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.textoConfBsAs{
+  text-align: right;
+}
+.textoConfBsAs .col-4 {
+  position: relative;
+  top: 20rem;
+}
+.conoceOradores{
+  margin-bottom: 2rem;
+}
+.textoOradores{
+  text-align: center;
+  margin: 1rem;
+}
+.card-body p{
+  padding: 0;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+.BsAsOctubre div img{
+  width: 100%;
+  height: 100%;
+}
+.BsAsOctubre .imgOctubre{
+  padding: 0;
+}
+.textoOctubre{
+  padding: 1rem;
+  background-color:  #343c44;
+}
+.orden{
+  position: relative;
+  top: 45rem;
+}
+.formulario{
+  padding: 1rem 0;
+}
+.formulario .col-6 button{
+  width: 100%;
+}
+.formulario .col-6{
+  text-align: center;
+}
+.formulario .col-6 .row{
+  padding-bottom: 1rem;
+}
+footer{
+  padding: 1rem;
+  background-color:#1c3c44;
+  text-align: center;
+}
+footer .row .col-10 button{
+  padding: 0 1.5rem;
+}
+
