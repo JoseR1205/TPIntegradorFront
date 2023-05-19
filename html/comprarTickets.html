@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\css\comprarTickets.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="..\img\codoacodo.png" alt="">
+            <p class="fs-5">Conf Bs As</p>
+        </div>
+        <ul>
+            <li><a href="index.html">La conferencia</a></li>
+            <li><a href="#">Los oradores</a></li>
+            <li><a href="#">El lugar y la fecha</a></li>
+            <li><a class="text-light" href="#">Conviértete en orador</a></li>
+            <li><a class="text-success" href="#">Comprar tickets</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="row ofertas">
+                    <div class="col border border-primary ">
+                        <H3>Estudiante</H3>
+                        <p>Tiene un Descuento</p>
+                        <H3>80%</H3>
+                        <p class="text-body-tertiary">* presentar documentación</p>
+                    </div>
+                    <div class="col border border-secondary descuentoTrainee">
+                        <H3>Trainee</H3>
+                        <p>Tiene un Descuento</p>
+                        <H3>50%</H3>
+                        <p class="text-body-tertiary">* presentar documentación</p>
+                    </div>
+                    <div class="col border border-warning ">
+                        <H3>Junior</H3>
+                        <p>Tiene un Descuento</p>
+                        <H3>15%</H3>
+                        <p class="text-body-tertiary">* presentar documentación</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <p>VENTA</p>
+                    <H1>VALOR DE TICKET $200</H1>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col-6 ps-0 pf-1">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col-6 px-0">
+                            <input type="text" class="form-control" placeholder="Apellido">
+                        </div>
+                        <div class="col-12 px-0 py-3">
+                            <input type="email" class="form-control" placeholder="Correo">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 ps-0 pf-1">
+                            <label for="cantidad" class="py-1">Cantidad</label>
+                            <input type="number" id="cantidad" class="form-control" placeholder="cantidad" min="1">
+                        </div>
+                        <div class="col-6 px-0">
+                            <label for="categoria" class="py-1">Categoria</label>
+                            <select class="form-select form-select" id="categoria">
+                                <option value="1">Estudiante</option>
+                                <option value="2">Trainee</option>
+                                <option value="3">Junior</option>
+                            </select>
+                        </div>
+                        <div class="col-12 px-0 py-3">
+                            <input class="form-control bg-info p-3 my-3" type="text" placeholder="Totál a Pagar: $"
+                                readonly id="total" value="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 d-grid gap-2 ps-0">
+                            <button type="reset" class=" btn btn-custom p-2">Borrar</button>
+                        </div>
+                        <div class="col-6 d-grid gap-2 p-0">
+                            <button type="button" class=" btn btn-custom p-2" id="resumen"
+                                onclick="calcular()">Resumen</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col-1"></div>
+
+            <div class="col-10">
+                <button type="button" class="btn text-light">Preguntas frecuentes</button>
+                <button type="button" class="btn text-light">Contactanos</button>
+                <button type="button" class="btn text-light">Prensa</button>
+                <button type="button" class="btn text-light">Conferencias</button>
+                <button type="button" class="btn text-light">Terminos y condiciones</button>
+                <button type="button" class="btn text-light">Privacidad</button>
+                <button type="button" class="btn text-light">Estudiantes</button>
+            </div>
+
+            <div class="col-1"></div>
+        </div>
+    </footer>
+    <script src="..\js\comprarTickets.js"></script>
+</body>
+
+</html>

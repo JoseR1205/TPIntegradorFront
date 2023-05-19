@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maginYPadding {
+    margin: 0;
+    padding: 0;
+}
+
+.icono {
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    background-color: #343c44;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+
+}
+
+nav ul {
+    height: 100%;
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #818c97;
+    display: block;
+    font-size: 1rem;
+    line-height: 50px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+nav img {
+    width: 8rem;
+}
+
+nav p {
+    color: white;
+    display: inline;
+    text-align: center;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+.ofertas .col {
+    text-align: center;
+    padding: 2rem;
+}
+
+.descuentoTrainee {
+    margin: 0 0.5rem;
+}
+
+.btn.btn-custom {
+    background-color: #98cc4c;
+    color: white;
+}
+
+footer {
+    height: 5rem;
+    padding: 1rem;
+    background-color: #1c3c44;
+    text-align: center;
+}
+
+footer .row .col-10 button {
+    padding: 0 1.5rem;
+}
